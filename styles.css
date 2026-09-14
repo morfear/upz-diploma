@@ -147,7 +147,8 @@ button, input, textarea { font: inherit; }
   cursor: pointer;
   transition: transform .2s, background .2s;
 }
-.btn:hover { transform: translateY(-1px); background: #1a1a16; }
+.btn:visited { color: #fff; }
+.btn:hover { transform: translateY(-1px); background: #1a1a16; color: #fff; }
 .btn--gold {
   background: var(--gold-card);
   color: var(--ink);
@@ -523,12 +524,10 @@ h1, h2, h3, .font-display {
   margin-top: 28px;
 }
 .btn--tg {
-  background: #229ed9;
   min-height: 52px;
   padding: 14px 28px;
   font-size: 16px;
 }
-.btn--tg:hover { background: #1b8ac0; }
 .tg-icon {
   width: 20px;
   height: 20px;
